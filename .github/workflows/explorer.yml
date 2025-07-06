@@ -3,6 +3,7 @@ name: Explorer
 on:
   push:
     paths: tools/explorer/**
+  workflow_dispatch:
 
 permissions:
   contents: read
